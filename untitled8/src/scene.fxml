@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SceneController">
+   <children>
+      <AnchorPane layoutX="-81.0" layoutY="-17.0" prefHeight="548.0" prefWidth="892.0">
+         <children>
+            <Button layoutX="423.0" layoutY="235.0" mnemonicParsing="false" onAction="#switchingScene" text="Switch" />
+            <Label layoutX="83.0" layoutY="101.0" prefHeight="27.0" prefWidth="818.0" text="Switch the main page">
+               <font>
+                  <Font size="48.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

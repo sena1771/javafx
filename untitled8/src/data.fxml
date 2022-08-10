@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="scenePane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="DataController">
+   <children>
+      <Label fx:id="nameLabel" layoutX="224.0" layoutY="109.0" prefHeight="91.0" prefWidth="91.0" text="Hello" />
+      <Button fx:id="logoutButton" layoutX="204.0" layoutY="226.0" mnemonicParsing="false" onAction="#logout" text="logout" />
+      <ImageView fx:id="Image" fitHeight="335.0" fitWidth="271.0" layoutX="316.0" layoutY="35.0" onMouseEntered="#displayImage" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@user.png" />
+         </image></ImageView>
+      <Button fx:id="ImageChange" layoutX="369.0" layoutY="306.0" mnemonicParsing="false" onAction="#displayImage" text="change the photo" />
+   </children>
+</AnchorPane>
